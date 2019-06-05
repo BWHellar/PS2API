@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:1em;
+  grid-auto-rows:minmax(100px,auto);
+}
+
+div.One, div.Two, div.Three{
+  border-style: dashed;
+  border-width: 5px;
+  border-color: red;
+  text-align: center;
+}

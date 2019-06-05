@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('#name').val("");
 
     let request = new XMLHttpRequest();
-    const url = `http://census.daybreakgames.com/s:8080stree/json/get/ps2:v2/character?name.first_lower=${character}&c:resolve=outfit, profile, faction, stat_history`;
+    const url = `http://census.daybreakgames.com/s:8080stree/json/get/ps2:v2/character?name.first_lower=${character}&c:resolve=stat, outfit, profile, faction, stat_history`;
 
     request.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {

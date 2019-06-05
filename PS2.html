@@ -2,22 +2,91 @@
   <head>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="PS2-interface.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css">
     <title>Players</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Testing!</h1>
-      <label for="name">Enter a name:</label>
-      <input id="name" type="text">
-      <button class="btn-success" id="PS2Name">Get Current Player!</button>
-      <div class="errors"></div>
-      <div class="show1"></div>
-      <div class="show2"></div>
-      <div class="show3"></div>
-      <div class="show4"></div>
-      <div class="show5"></div>
-      <div class="show6"></div>
-      <div class="show7"></div>
+  <div id="nav">
+    <ul class="nav navbar-nav">
+        <li><a href="https://bwhellar.github.io/portfolioproject1/">About</a></li>
+        <li><a href="https://github.com/BWHellar">Github</a></li>
+        <li><a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">Useless References</a></li>
+        <li><a href="mailto:bwhellar@gmail.com">Email Me</a></li>
+    </ul>
+  </div>
+    <div class="grid">
+      <div class="Top">
+        <div id="jumbotext">
+          <h1><span class="purpose">This will be the words across the Jumbotron</span></h1>
+        </div>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="***********">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="***********">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="***********">Link 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="***********">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <div class="One">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <label for="name">Enter a name:</label>
+              <input id="name" type="text">
+              <button class="btn-success" id="PS2Name">Get Current Player!</button>
+            </div>
+            <div class="panel-body">
+              <div class="container">
+                <div class="errors"></div>
+                <div class="show1"></div>
+                <div class="show2"></div>
+                <div class="show3"></div>
+                <div class="show4"></div>
+                <div class="show5"></div>
+                <div class="show6"></div>
+                <div class="show7"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="Two">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">Box 2 Title<h2>
+            </div>
+            <div class="panel-body">
+              <button tooltip="Javascript is poo!" tooltip-position=”left”> click here !! </button>
+              <p>This will be displayed the same way a paragraph is displayed.
+                These words are for Box 2</p>
+            </div>
+          </div>
+        </div>
+      <div class="Three">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">Box 3 Title</h2>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+                <li>List item 5</li>
+                <li>List item 6</li>
+                <li>List item 7</li>
+                <li>List item 8</li>
+                <li>List item 9</li>
+              </ul>
+            </div>
+          </div>
+        </div>
     </div>
   </body>
 </html>
